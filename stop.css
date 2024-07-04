@@ -1,0 +1,46 @@
+body {
+    background: darkorange;
+
+}
+.container{
+    background-color: rgb(255, 221, 0);
+    width: 60%;
+    border: 12px solid rgb(43, 0, 255);
+    margin: auto;
+   display: flex;
+  justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 100px;
+   
+}
+#text{
+     font-weight: bolder;
+     color:rgb(255, 0, 0);
+    font-size: 40px;
+}
+#stopwatch{
+    font-size: 60px;
+}
+#start{
+    border: 3px rgb(0, 255, 98) solid;
+    border-radius: 12px;
+    color: rgba(16, 230, 20, 0.68);
+    padding: 15px;
+    
+}
+#stop{
+    border: 3px red solid;
+    border-radius: 12px;
+    color: rgb(226, 43, 43);
+    padding: 15px;
+    
+}
+#reset{
+    border: 3px rgb(174, 0, 255) solid;
+    border-radius: 12px;
+    color: rgb(150, 43, 226);
+    padding: 15px;
+    
+}
+
